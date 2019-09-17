@@ -1,22 +1,22 @@
 {
-    "name": "kouz/laravel-airbrake",
+    "name": "twotwentyseven/laravel-airbrake",
     "description": "Laravel service provider for Airbrake https://github.com/airbrake/phpbrake",
     "keywords": ["airbrake", "laravel"],
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.2",
         "airbrake/phpbrake": "^0.5.2",
-        "illuminate/support": "6.*"
+        "illuminate/support": "^6.*"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Theo Kouzelis",
-            "email": "tkouzelis@outlook.com"
+            "name": "Nathan Bentley",
+            "email": "nathan.bentley@twotwentyseven.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Kouz\\LaravelAirbrake\\": "src/"
+            "Twotwentyseven\\LaravelAirbrake\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kouz\\LaravelAirbrake\\ServiceProvider"
+                "Twotwentyseven\\LaravelAirbrake\\ServiceProvider"
             ]
         }
     }

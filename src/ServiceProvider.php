@@ -1,6 +1,6 @@
 <?php
 
-namespace Kouz\LaravelAirbrake;
+namespace Twotwentyseven\LaravelAirbrake;
 
 use Airbrake\Notifier;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -28,7 +28,6 @@ class ServiceProvider extends BaseServiceProvider
     {
         $this->app->singleton('Airbrake\Notifier', function ($app) {
             $handler = new AirbrakeHandler($app);
-
             return $handler->handle();
         });
     }
