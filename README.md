@@ -9,7 +9,7 @@ The service provider will configure an instance of Airbrake\Notifier with an ID,
 ## Install
 Require via composer.
 ```
-composer require twot/laravel-airbrake
+composer require twotwentyseven/laravel-airbrake
 ```
 Publish and fill out the config/airbrake.php file with your ID and key.
 ```
